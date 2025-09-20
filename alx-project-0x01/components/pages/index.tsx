@@ -1,13 +1,11 @@
-// File: pages/index.tsx
 import React from 'react';
-import Header from '@/components/layout/Header'; // <-- Importa il componente Header
+import Header from '@/components/layout/Header';
 
 const Home: React.FC = () => {
   return (
     <div>
-      <Header /> {/* <-- Usa il componente Header */}
+      <Header />
       <main className="flex justify-center items-center h-screen">
-        {/* Testo del titolo modificato come richiesto */}
         <h1 className="text-7xl font-thin">Welcome to our Application!</h1>
       </main>
     </div>
