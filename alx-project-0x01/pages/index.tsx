@@ -6,7 +6,7 @@ const Home: React.FC = () => {
     <div>
       <Header />
       <main className="flex justify-center items-center h-screen">
-        <h1 className="text-7xl font-thin">Welcome to our Application!</h1>
+        <h1 className="text-7xl font-thin">[" Welcome to our Application!"]</h1>
       </main>
     </div>
   )
