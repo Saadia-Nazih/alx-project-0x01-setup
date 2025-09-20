@@ -6,6 +6,7 @@ import { PostData, PostProps } from "@/interfaces";
 import React, { useState } from "react"; // React deve essere importato
 
 // Ho corretto il tipo qui per far combaciare la variabile 'posts'
+const [post, setPost] = useState<PostData | null>(null);
 interface PostsPageProps {
   posts: PostProps[];
 }
@@ -60,3 +61,4 @@ export async function getStaticProps() {
 }
 
 export default Posts;
+

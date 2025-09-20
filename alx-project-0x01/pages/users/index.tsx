@@ -41,3 +41,4 @@ export async function getStaticProps() {
 
 // 7. Esportiamo il componente con il nuovo nome 'Users'
 export default Users;
+
