@@ -47,3 +47,18 @@ export interface PostModalProps {
   onClose: () => void;
   onSubmit: (post: PostData) => void;
 }
+// File: interfaces/index.ts
+
+// Dati per il modulo di creazione di un nuovo utente
+export interface UserData {
+  id?: number;
+  name: string;
+  username: string;
+  email: string;
+}
+
+// Props per il componente del modulo a comparsa (modal)
+export interface UserModalProps {
+  onClose: () => void;
+  onSubmit: (user: UserData) => void;
+}
